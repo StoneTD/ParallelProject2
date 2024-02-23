@@ -17,6 +17,6 @@ In a real world scenario this would allow the guests to enjoy the party while wa
 In terms of coding a multithreaded program this is also incredibly simple because all it requires is one simple lock, in this case we used a simple boolean variable. <br/>
 The disadvantages of this approach is that the guests might not get a chance to view the vase because someone was camping outside of the room the whole time, or maybe someone left the room only to immediately return to it, you get the idea. <br/>
 Not having a queueing system means there will likely be threads that don't get the chance to view the room and that doesn't seem "fair". <br/>
-That being said if a guest wanted to see the vase they should've been quicker, not my fault they spent too long getting into overly political conversations for a party setting and lost track of time only to return to the sign to see that it says <font color='red'>BUSY</font> once again
+That being said if a guest wanted to see the vase they should've been quicker, not my fault they spent too long getting into overly political conversations for a party setting and lost track of time only to return to the sign to see that it says <html><font color='red'>BUSY</font></html> once again
 
 
