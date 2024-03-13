@@ -22,4 +22,9 @@ The disadvantages of this approach is that the guests might not get a chance to 
 Not having a queueing system means there will likely be threads that don't get the chance to view the room and that doesn't seem "fair". <br/>
 That being said if a guest wanted to see the vase they should've been quicker, not my fault they spent too long getting into overly political conversations for a party setting and lost track of time only to return to the sign to see that it says <span style="color:red">BUSY</span> once again
 
-
+### <ins>Compilation Instruction<ins>
+In order to compile and run the file first download the source code from this repository <br/>
+Then move the source file from the downloads folder onto your desktop <br/>
+After, open command prompt and navigate to your desktop folder <br/>
+type `javac MinotaurBirthday.java` then click enter <br/>
+type `java MinotaurBirthday` then click enter
